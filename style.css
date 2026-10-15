@@ -1,0 +1,15 @@
+.controls {
+  background-color: rgba(59, 117, 8, 0.87);
+  color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  gap: 1px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.dropdown{
+  position: relative;
+  left: 1px;
+  padding: 10px;
+}

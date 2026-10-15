@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft Three.js</title>
+    <style> body { margin: 100; } </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p id="p"></p>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+                <img src="/imgs/images.png" alt="AvatarLogo" style="width:40px;"class="rounded-pill">
+            </a>
+        </div>
+    </nav>
+
+    <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Menu
+    </button>
+
+    <!-- A classe .dropdown-menu-end alinha o menu à direita -->
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="#">Item 1</a></li>
+        <li><a class="dropdown-item" href="#">Item 2</a></li>
+    </ul>
+    </div>
+
+    <div class="controls">
+        
+        <div class="controlstack">
+            <div id="X">
+                Blocks in X:<input type="range" min="1" max="100" 
+                value="1" id="terrain_sliderX">
+            </div>
+            <div id="Y">
+                Blocks in Y:<input type="range" min="1" max="100" 
+                value="1" id="terrain_sliderY">
+            </div>
+            <div id="Z">
+                Blocks in Z:<input type="range" min="1" max="100" 
+                value="1" id="terrain_sliderZ">
+            </div>
+        </div>
+
+        <div class="controlspacing">
+            <div id="spacingX">
+                spacing in X:<input type="range" min="1" max="25" 
+                value="1" id="spacing_sliderX">
+            </div>
+            <div id="spacingY">
+                spacing in Y:<input type="range" min="1" max="25" 
+                value="1" id="spacing_sliderY">
+            </div>
+            <div id="spacingZ">
+                spacing in Z:<input type="range" min="1" max="25" 
+                value="1" id="spacing_sliderZ">
+            </div>
+        </div>
+
+        <div class="controlsdivision">
+            <div id="divisionX">
+                division in X:<input type="range" min="1" max="3" 
+                value="1" id="division_sliderX">
+            </div>
+            <div id="divisionY">
+                division in Y:<input type="range" min="1" max="3" 
+                value="1" id="division_sliderY">
+            </div>
+            <div id="divisionZ">
+                division in Z:<input type="range" min="1" max="3" 
+                value="1" id="division_sliderZ">
+        </div>
+
+    </div>
+
+    <script type="module" src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
